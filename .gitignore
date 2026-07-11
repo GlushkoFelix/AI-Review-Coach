@@ -1,0 +1,22 @@
+# 配置文件（含API Key，不要提交到GitHub！）
+config.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 复盘输出（可选提交，看个人意愿）
+reviews/
+
+# 虚拟环境
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db

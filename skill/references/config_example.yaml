@@ -1,0 +1,29 @@
+# AI每日复盘教练 - 配置文件
+# 复制此文件为 config.yaml 并填写你的 API Key
+
+api:
+  # DeepSeek API（推荐，国内可用，免费额度充足）
+  base_url: "https://api.deepseek.com"
+  api_key: "your-deepseek-api-key-here"
+  model: "deepseek-chat"
+
+  # 其他兼容 OpenAI 格式的 API 也可使用：
+  #
+  # 通义千问（阿里云）:
+  #   base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  #   api_key: "your-qwen-api-key"
+  #   model: "qwen-turbo"
+  #
+  # 智谱AI（ChatGLM）:
+  #   base_url: "https://open.bigmodel.cn/api/paas/v4"
+  #   api_key: "your-zhipu-api-key"
+  #   model: "glm-4-flash"
+  #
+  # OpenAI:
+  #   base_url: "https://api.openai.com/v1"
+  #   api_key: "your-openai-api-key"
+  #   model: "gpt-3.5-turbo"
+
+# 复盘保存路径
+output:
+  reviews_dir: "reviews"    # 每日复盘保存目录
